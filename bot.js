@@ -10,7 +10,7 @@ const client = new Client({
         IntentsBitField.Flags.MessageContent,
     ]
 });
-console.log(process.env.API_KEY);
+
 client.on('ready', () => {
     console.log('Bot is online.');
 });
